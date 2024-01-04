@@ -16,6 +16,9 @@ class Context
     /** @var string */
     private $signingKeyId;
 
+    /** @var Algorithm */
+    public $algorithm;
+
     /**
      * @param array $args
      *

@@ -4,6 +4,18 @@ namespace HttpSignatures;
 
 class SignatureParameters
 {
+    /** @var Key */
+    public $key;
+    
+    /** @var AlgorithmInterface */
+    public $algorithm;
+    
+    /** @var HeaderList */
+    public $headerList;
+    
+    /** @var Signature */
+    public $signature;
+
     /**
      * @param Key                $key
      * @param AlgorithmInterface $algorithm
